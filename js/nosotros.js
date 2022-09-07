@@ -3,7 +3,7 @@ const alumnos = [{
     nombre:"Aaron " + "<br>" + " Montivero",
     descripcion: "Estudiante de Desarrollo Web Full Stack  | HTML | CSS | JS | C",
     url:"https://www.linkedin.com/in/aaron-luciano-montivero/",
-    imagen:"aaron.jpeg"
+    imagen:"aaron.png"
   },{
     nombre:"Uriel " + "<br>" + " Milgron",
     descripcion: "Desarrollador frontend | Frontend | HTML | CSS | Javascript | ReactJS",
