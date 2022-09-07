@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentoring</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="shortcut icon" href="media/logo_pescar.jpg" type="image/x-icon">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="script/Winwheel.min.js"></script>
+  </head>
+
+  <body>
+    <header class="SeccionHeader">
+      <div class="divNavContainer">
+        <img
+          src="./media/Logo Pescar completo.png"
+          width="130px"
+          alt=""
+        />
+      </div>
+      <nav>
+        <ul class="nav_links">
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Ruleta -->
+      <div class="container">
+        <table>
+          <td class="the_wheel">
+            <canvas id="canvas" height="550" width="550"> </canvas>
+          </td>
+        </table>
+        <input
+          class="boton"
+          type="button"
+          value="Girar"
+          onclick="miRuleta.startAnimation();"
+        />
+      </div>
+
+      <!-- cards -->
+      <div class="cartas_box">
+        <section id="modal"></section>
+        <div class="contenedor">
+          <div class="cards">
+            <div class="card">
+              <div class="word">
+                <span>1</span>
+                <img src="./media/san-logo.webp" alt="" />
+              </div>
+
+              <div class="trans hide">
+                Desde su experiencia en Santander, ¿cuáles son las habilidades más valoradas para ingresar al banco?
+              </div>
+            </div>
+            <div class="card">
+              <div class="word">
+                <span>5</span>
+                <img src="./media/san-logo.webp" alt="" />
+              </div>
+
+              <div class="trans hide pregunta_">
+                ¿Qué expectativas tiene sobre el programa de mentoring?
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="word">
+                <span>2</span>
+                <img src="./media/logo_pescar.jpg" alt="" />
+              </div>
+
+              <div class="trans hide">
+                ¿Cuál fue su incentivo a participar en este programa de mentores?
+              </div>
+            </div>
+            <div class="card">
+              <div class="word">
+                <span>6</span>
+                <img src="./media/logo_pescar.jpg" alt="" />
+              </div>
+
+              <div class="trans hide">
+                ¿Qué aprendizajes quiseras llevarte de esta experiencia?
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="word">
+                <span>3</span>
+                <img src="./media/san-logo.webp" alt="" />
+              </div>
+
+              <div class="trans hide">
+                ¿Qué desafíos encontrás en este programa?
+              </div>
+            </div>
+            <div class="card">
+              <div class="word">
+                <span>7</span>
+                <img src="./media/san-logo.webp" alt="" />
+              </div>
+
+              <div class="trans hide">
+                ¿Qué consejos nos darías para potenciar nuestro desarrollo personal y profesionar dentro del programa?
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="word">
+                <span>4</span>
+                <img src="./media/logo_pescar.jpg" alt="" />
+              </div>
+
+              <div class="trans hide">
+                ¿Qué representa ser mentor para usted?
+              </div>
+            </div>
+            <div class="card">
+              <div class="word">
+                <span>8</span>
+                <img src="./media/logo_pescar.jpg" alt="" />
+              </div>
+
+              <div class="trans hide">
+                ¿Qué aprendizajes quisieras que se lleve tu mentee?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./js/app.js"></script>
+</html>

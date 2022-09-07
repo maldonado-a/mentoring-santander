@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial;
+}
+main {
+  height: 620px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../media/fondo-nosotros.png);
+  background-size: cover;
+}
+/* Sets the background image for the wheel */
+
+.divNavContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+td.the_wheel {
+  background-image: url(../media/background-santander);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
+  border-radius: 300px;
+  padding: 0px;
+}
+
+.container {
+  /* background-color: #ffffff; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.boton {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  background-color: #ffffff;
+  color: red;
+  width: 100px;
+  height: 35px;
+  border: 1px solid #ec0000;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*= Contenedor=*/
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*= Estilos de la imagen logo=*/
+
+.word img {
+  width: 4.5rem;
+  height: 4rem;
+}
+
+.word span{
+  display: block;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ec0000;
+  border-radius: 70%;
+  padding-top: 10px;
+  border-bottom: 5px solid rgba(236, 0, 0, 0.4);
+}
+
+/*=== Propiedades para la carta===*/
+
+.cartas_box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  width: 150px;
+  height: 225px;
+  margin: 10px 10px 20px 10px;
+  border-radius: 10px;
+  transition: transform 2s;
+  box-shadow: -6px -1px 45px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -6px -1px 45px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px -1px 45px -8px rgba(0, 0, 0, 0.75);
+}
+
+.trans {
+  transform: rotateY(-180deg);
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.rotator {
+  transform: rotateY(180deg);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ec0000;
+}
+
+#modal {
+  /* width: 100%; */
+  height: auto;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 2em;
+  border-radius: 50px;
+  border: red 5px solid;
+  padding: 10px;
+}
+
+#modal h3 {
+  color: #ec0000;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.SeccionHeader li a {
+  font-size: 16px;
+  color: #ec0000;
+  text-decoration: none;
+}
+
+.SeccionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f8f8;
+  padding: 0 10%;
+  position: sticky;
+  box-shadow: -6px -1px 30px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -6px -1px 30px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px -1px 30px -8px rgba(0, 0, 0, 0.75);
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-weight: bold;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav_links li a {
+  font-size: 1.3rem;
+}
+
+/* .boton:hover{
+    back
+} */
+
